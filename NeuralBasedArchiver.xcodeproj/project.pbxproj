@@ -117,6 +117,7 @@
 		8106154E1E0403D300D5D1CE = {
 			isa = PBXGroup;
 			children = (
+				8106158B1E0423D400D5D1CE /* NNACore */,
 				810615591E0403D300D5D1CE /* NeuralBasedArchiver */,
 				810615711E0403D300D5D1CE /* NeuralBasedArchiverTests */,
 				8106157C1E0403D300D5D1CE /* NeuralBasedArchiverUITests */,
@@ -166,6 +167,38 @@
 				8106157F1E0403D300D5D1CE /* Info.plist */,
 			);
 			path = NeuralBasedArchiverUITests;
+			sourceTree = "<group>";
+		};
+		8106158B1E0423D400D5D1CE /* NNACore */ = {
+			isa = PBXGroup;
+			children = (
+				8106158E1E0424D400D5D1CE /* NNAAnalytics */,
+				8106158D1E04246900D5D1CE /* NNAEngine */,
+				8106158C1E0423E200D5D1CE /* NNASerialization */,
+			);
+			name = NNACore;
+			path = NeuralBasedArchiver;
+			sourceTree = "<group>";
+		};
+		8106158C1E0423E200D5D1CE /* NNASerialization */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NNASerialization;
+			sourceTree = "<group>";
+		};
+		8106158D1E04246900D5D1CE /* NNAEngine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NNAEngine;
+			sourceTree = "<group>";
+		};
+		8106158E1E0424D400D5D1CE /* NNAAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NNAAnalytics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -711,6 +744,7 @@
 				810615841E0403D300D5D1CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		810615851E0403D300D5D1CE /* Build configuration list for PBXNativeTarget "NeuralBasedArchiverTests" */ = {
 			isa = XCConfigurationList;
@@ -719,6 +753,7 @@
 				810615871E0403D300D5D1CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		810615881E0403D300D5D1CE /* Build configuration list for PBXNativeTarget "NeuralBasedArchiverUITests" */ = {
 			isa = XCConfigurationList;
@@ -727,6 +762,7 @@
 				8106158A1E0403D300D5D1CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
