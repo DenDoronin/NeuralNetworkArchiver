@@ -1,0 +1,6 @@
+framework module Pods_NeuralBasedArchiverTests {
+  umbrella header "Pods-NeuralBasedArchiverTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

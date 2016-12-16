@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11B5071931D08C986D9AF0D219FD9C6C /* Pods-NeuralBasedArchiverTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF7381B99834A4A8DC8FEDA38AE848C /* Pods-NeuralBasedArchiverTests-dummy.m */; };
+		47EBF136DAFB186EACF372838A4B2AC9 /* Pods-NeuralBasedArchiverTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A9DC224DC44D90072E60F1454E3FA2 /* Pods-NeuralBasedArchiverTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57BA6223A94E52DFC84922404CB678D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		59A480E4A87627E5152674931A22FC79 /* Pods-NeuralBasedArchiver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0E6AC41F0427F34DA8308B5AF44F58 /* Pods-NeuralBasedArchiver-dummy.m */; };
+		6714607CA2C35B1B23A3EB62A4EE5A16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9359077B9DA3F244D94C7EB03F26C528 /* Pods-NeuralBasedArchiverUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5EAF7A1D33291C448F64D9AFA16E70 /* Pods-NeuralBasedArchiverUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D80E12631B1B1DAB8E1E627F3BB7F5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D17EA731217D7A3C1CCBE614694650E3 /* Pods-NeuralBasedArchiverUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4B071D715951F9AAECDAC0725C086B /* Pods-NeuralBasedArchiverUITests-dummy.m */; };
+		DF4D855632B0ACAB827499C8B8826C6E /* Pods-NeuralBasedArchiver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D88A0ACB539008F062985E394D007B /* Pods-NeuralBasedArchiver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09B1CAF3B2CA9269480A7104F7CCC2E5 /* Pods-NeuralBasedArchiverUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NeuralBasedArchiverUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F5EAF7A1D33291C448F64D9AFA16E70 /* Pods-NeuralBasedArchiverUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NeuralBasedArchiverUITests-umbrella.h"; sourceTree = "<group>"; };
+		13E6BD4615461920A322B021CB7063DC /* Pods-NeuralBasedArchiverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NeuralBasedArchiverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D77A535DDBDEC1E14EF485999DC88D9 /* Pods-NeuralBasedArchiverTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NeuralBasedArchiverTests.modulemap"; sourceTree = "<group>"; };
+		21CCF19EF0E1C606BC63EE20C152D2FB /* Pods_NeuralBasedArchiverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NeuralBasedArchiverUITests.framework; path = "Pods-NeuralBasedArchiverUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A9DC224DC44D90072E60F1454E3FA2 /* Pods-NeuralBasedArchiverTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NeuralBasedArchiverTests-umbrella.h"; sourceTree = "<group>"; };
+		337F49F3B02C8130248B8063EC6F1621 /* Pods-NeuralBasedArchiverTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NeuralBasedArchiverTests-frameworks.sh"; sourceTree = "<group>"; };
+		3880F1FC2BC89EC3BE1BCD6EB238D4B9 /* Pods-NeuralBasedArchiver-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NeuralBasedArchiver-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5193FEBE598C7B3BD31F435C5B48B025 /* Pods-NeuralBasedArchiver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NeuralBasedArchiver.modulemap"; sourceTree = "<group>"; };
+		5577B7356C8ECE244419E9B3D7744A56 /* Pods-NeuralBasedArchiverUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NeuralBasedArchiverUITests-frameworks.sh"; sourceTree = "<group>"; };
+		77F5A8DCE2CDF3C3862CCE8997B65E70 /* Pods_NeuralBasedArchiverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NeuralBasedArchiverTests.framework; path = "Pods-NeuralBasedArchiverTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B0E6AC41F0427F34DA8308B5AF44F58 /* Pods-NeuralBasedArchiver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NeuralBasedArchiver-dummy.m"; sourceTree = "<group>"; };
+		7C7828E4CE341A2C60F90526B72713AD /* Pods_NeuralBasedArchiver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NeuralBasedArchiver.framework; path = "Pods-NeuralBasedArchiver.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ED25061DCBD2AFD805AD33206AFBA53 /* Pods-NeuralBasedArchiver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NeuralBasedArchiver.debug.xcconfig"; sourceTree = "<group>"; };
+		83D306677A8D611FFCD6B37D1E90236C /* Pods-NeuralBasedArchiverTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NeuralBasedArchiverTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8767348356AFEDE96D66AC2363AE2E29 /* Pods-NeuralBasedArchiver-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NeuralBasedArchiver-frameworks.sh"; sourceTree = "<group>"; };
+		8C4B071D715951F9AAECDAC0725C086B /* Pods-NeuralBasedArchiverUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NeuralBasedArchiverUITests-dummy.m"; sourceTree = "<group>"; };
+		8ECF770C4602669B84203802A1FE8DB4 /* Pods-NeuralBasedArchiverTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NeuralBasedArchiverTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D417CE3458920879CA86316985E3887 /* Pods-NeuralBasedArchiverUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NeuralBasedArchiverUITests-resources.sh"; sourceTree = "<group>"; };
+		9FEFE1F90EE700154F1031C1DDD4B23F /* Pods-NeuralBasedArchiverTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NeuralBasedArchiverTests-resources.sh"; sourceTree = "<group>"; };
+		A18B019820502CCB78EA0C1511024E9E /* Pods-NeuralBasedArchiver-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NeuralBasedArchiver-acknowledgements.plist"; sourceTree = "<group>"; };
+		ABDB6B07963200CE244B7E9930F12DB5 /* Pods-NeuralBasedArchiverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NeuralBasedArchiverTests.release.xcconfig"; sourceTree = "<group>"; };
+		B7E2F75B6CCBD5B72A4F2DD4D4C21E5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAF68BCE2D6792949460C7D2502B71DC /* Pods-NeuralBasedArchiverUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NeuralBasedArchiverUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE269D07F30379F6E8B97FDF5784C6C6 /* Pods-NeuralBasedArchiverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NeuralBasedArchiverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CEF151ECFD18CC10F860ED7B0A10340A /* Pods-NeuralBasedArchiverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NeuralBasedArchiverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D304EDDCEEB364324AF0177A8295319A /* Pods-NeuralBasedArchiverUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NeuralBasedArchiverUITests.modulemap"; sourceTree = "<group>"; };
+		D50F07D123021786F9D1FFB302310636 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5D88A0ACB539008F062985E394D007B /* Pods-NeuralBasedArchiver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NeuralBasedArchiver-umbrella.h"; sourceTree = "<group>"; };
+		EAF7381B99834A4A8DC8FEDA38AE848C /* Pods-NeuralBasedArchiverTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NeuralBasedArchiverTests-dummy.m"; sourceTree = "<group>"; };
+		EE9485D96D6F5B69ACA51E5C9497A6AC /* Pods-NeuralBasedArchiver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NeuralBasedArchiver.release.xcconfig"; sourceTree = "<group>"; };
+		F832B538064C68B229CB2B6041C2F951 /* Pods-NeuralBasedArchiver-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NeuralBasedArchiver-resources.sh"; sourceTree = "<group>"; };
+		FE8FB4FD5259334EBAD735732298D382 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1018C4ACBB3D1550282215EB03C74750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BA6223A94E52DFC84922404CB678D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BDFCB9E42AD056AE3A95B3A184CEE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6714607CA2C35B1B23A3EB62A4EE5A16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37104501239DA20C9D0E6FE98805D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D80E12631B1B1DAB8E1E627F3BB7F5B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CF096B28EAE281BE3A5A1D31A1493CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C7828E4CE341A2C60F90526B72713AD /* Pods_NeuralBasedArchiver.framework */,
+				77F5A8DCE2CDF3C3862CCE8997B65E70 /* Pods_NeuralBasedArchiverTests.framework */,
+				21CCF19EF0E1C606BC63EE20C152D2FB /* Pods_NeuralBasedArchiverUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7AA881B8D3144B946323AD14E2577313 /* Pods-NeuralBasedArchiver */ = {
+			isa = PBXGroup;
+			children = (
+				FE8FB4FD5259334EBAD735732298D382 /* Info.plist */,
+				5193FEBE598C7B3BD31F435C5B48B025 /* Pods-NeuralBasedArchiver.modulemap */,
+				3880F1FC2BC89EC3BE1BCD6EB238D4B9 /* Pods-NeuralBasedArchiver-acknowledgements.markdown */,
+				A18B019820502CCB78EA0C1511024E9E /* Pods-NeuralBasedArchiver-acknowledgements.plist */,
+				7B0E6AC41F0427F34DA8308B5AF44F58 /* Pods-NeuralBasedArchiver-dummy.m */,
+				8767348356AFEDE96D66AC2363AE2E29 /* Pods-NeuralBasedArchiver-frameworks.sh */,
+				F832B538064C68B229CB2B6041C2F951 /* Pods-NeuralBasedArchiver-resources.sh */,
+				D5D88A0ACB539008F062985E394D007B /* Pods-NeuralBasedArchiver-umbrella.h */,
+				7ED25061DCBD2AFD805AD33206AFBA53 /* Pods-NeuralBasedArchiver.debug.xcconfig */,
+				EE9485D96D6F5B69ACA51E5C9497A6AC /* Pods-NeuralBasedArchiver.release.xcconfig */,
+			);
+			name = "Pods-NeuralBasedArchiver";
+			path = "Target Support Files/Pods-NeuralBasedArchiver";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3CF096B28EAE281BE3A5A1D31A1493CE /* Products */,
+				FA48D1360DC203C1117DD86AC96DBC07 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A61898A0A4275DF048CD03267F8B17C4 /* Pods-NeuralBasedArchiverTests */ = {
+			isa = PBXGroup;
+			children = (
+				D50F07D123021786F9D1FFB302310636 /* Info.plist */,
+				1D77A535DDBDEC1E14EF485999DC88D9 /* Pods-NeuralBasedArchiverTests.modulemap */,
+				8ECF770C4602669B84203802A1FE8DB4 /* Pods-NeuralBasedArchiverTests-acknowledgements.markdown */,
+				83D306677A8D611FFCD6B37D1E90236C /* Pods-NeuralBasedArchiverTests-acknowledgements.plist */,
+				EAF7381B99834A4A8DC8FEDA38AE848C /* Pods-NeuralBasedArchiverTests-dummy.m */,
+				337F49F3B02C8130248B8063EC6F1621 /* Pods-NeuralBasedArchiverTests-frameworks.sh */,
+				9FEFE1F90EE700154F1031C1DDD4B23F /* Pods-NeuralBasedArchiverTests-resources.sh */,
+				28A9DC224DC44D90072E60F1454E3FA2 /* Pods-NeuralBasedArchiverTests-umbrella.h */,
+				CEF151ECFD18CC10F860ED7B0A10340A /* Pods-NeuralBasedArchiverTests.debug.xcconfig */,
+				ABDB6B07963200CE244B7E9930F12DB5 /* Pods-NeuralBasedArchiverTests.release.xcconfig */,
+			);
+			name = "Pods-NeuralBasedArchiverTests";
+			path = "Target Support Files/Pods-NeuralBasedArchiverTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5EF0F50B2B902B3EFB59CC7AE911DEF /* Pods-NeuralBasedArchiverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7E2F75B6CCBD5B72A4F2DD4D4C21E5F /* Info.plist */,
+				D304EDDCEEB364324AF0177A8295319A /* Pods-NeuralBasedArchiverUITests.modulemap */,
+				BAF68BCE2D6792949460C7D2502B71DC /* Pods-NeuralBasedArchiverUITests-acknowledgements.markdown */,
+				09B1CAF3B2CA9269480A7104F7CCC2E5 /* Pods-NeuralBasedArchiverUITests-acknowledgements.plist */,
+				8C4B071D715951F9AAECDAC0725C086B /* Pods-NeuralBasedArchiverUITests-dummy.m */,
+				5577B7356C8ECE244419E9B3D7744A56 /* Pods-NeuralBasedArchiverUITests-frameworks.sh */,
+				9D417CE3458920879CA86316985E3887 /* Pods-NeuralBasedArchiverUITests-resources.sh */,
+				0F5EAF7A1D33291C448F64D9AFA16E70 /* Pods-NeuralBasedArchiverUITests-umbrella.h */,
+				13E6BD4615461920A322B021CB7063DC /* Pods-NeuralBasedArchiverUITests.debug.xcconfig */,
+				BE269D07F30379F6E8B97FDF5784C6C6 /* Pods-NeuralBasedArchiverUITests.release.xcconfig */,
+			);
+			name = "Pods-NeuralBasedArchiverUITests";
+			path = "Target Support Files/Pods-NeuralBasedArchiverUITests";
+			sourceTree = "<group>";
+		};
+		FA48D1360DC203C1117DD86AC96DBC07 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AA881B8D3144B946323AD14E2577313 /* Pods-NeuralBasedArchiver */,
+				A61898A0A4275DF048CD03267F8B17C4 /* Pods-NeuralBasedArchiverTests */,
+				F5EF0F50B2B902B3EFB59CC7AE911DEF /* Pods-NeuralBasedArchiverUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		306422512DD4F4AF078EEBAB9DAB9069 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9359077B9DA3F244D94C7EB03F26C528 /* Pods-NeuralBasedArchiverUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7040B8A53A0BF0C76F98CB5CDB262E49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4D855632B0ACAB827499C8B8826C6E /* Pods-NeuralBasedArchiver-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85385829F0B088F7CE7CEE21CEE95FA0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EBF136DAFB186EACF372838A4B2AC9 /* Pods-NeuralBasedArchiverTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		789A201D79F7B1587DBC7BCF50F75C83 /* Pods-NeuralBasedArchiverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4589FE27AC7D8A719FEF26E6FBBF3A5C /* Build configuration list for PBXNativeTarget "Pods-NeuralBasedArchiverTests" */;
+			buildPhases = (
+				08ED4778A9B71D1E9EE2D1A8D1D10B76 /* Sources */,
+				F37104501239DA20C9D0E6FE98805D64 /* Frameworks */,
+				85385829F0B088F7CE7CEE21CEE95FA0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NeuralBasedArchiverTests";
+			productName = "Pods-NeuralBasedArchiverTests";
+			productReference = 77F5A8DCE2CDF3C3862CCE8997B65E70 /* Pods_NeuralBasedArchiverTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A11B8D9AA58B960A84477D9ECBDAC929 /* Pods-NeuralBasedArchiverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F5D7556360815A98CBF526D6FCC3CB1 /* Build configuration list for PBXNativeTarget "Pods-NeuralBasedArchiverUITests" */;
+			buildPhases = (
+				392B93EA4C473BFD8E38BEE3E82212D0 /* Sources */,
+				1018C4ACBB3D1550282215EB03C74750 /* Frameworks */,
+				306422512DD4F4AF078EEBAB9DAB9069 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NeuralBasedArchiverUITests";
+			productName = "Pods-NeuralBasedArchiverUITests";
+			productReference = 21CCF19EF0E1C606BC63EE20C152D2FB /* Pods_NeuralBasedArchiverUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E2C6E886825C1745B903032F79302776 /* Pods-NeuralBasedArchiver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F9D6CD7C205CD44FD1742703AE69B4 /* Build configuration list for PBXNativeTarget "Pods-NeuralBasedArchiver" */;
+			buildPhases = (
+				298C2552ADE8AE3436BA83DF089D2282 /* Sources */,
+				62BDFCB9E42AD056AE3A95B3A184CEE1 /* Frameworks */,
+				7040B8A53A0BF0C76F98CB5CDB262E49 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NeuralBasedArchiver";
+			productName = "Pods-NeuralBasedArchiver";
+			productReference = 7C7828E4CE341A2C60F90526B72713AD /* Pods_NeuralBasedArchiver.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3CF096B28EAE281BE3A5A1D31A1493CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2C6E886825C1745B903032F79302776 /* Pods-NeuralBasedArchiver */,
+				789A201D79F7B1587DBC7BCF50F75C83 /* Pods-NeuralBasedArchiverTests */,
+				A11B8D9AA58B960A84477D9ECBDAC929 /* Pods-NeuralBasedArchiverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08ED4778A9B71D1E9EE2D1A8D1D10B76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B5071931D08C986D9AF0D219FD9C6C /* Pods-NeuralBasedArchiverTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298C2552ADE8AE3436BA83DF089D2282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A480E4A87627E5152674931A22FC79 /* Pods-NeuralBasedArchiver-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392B93EA4C473BFD8E38BEE3E82212D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D17EA731217D7A3C1CCBE614694650E3 /* Pods-NeuralBasedArchiverUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0D1F908818B63828B53B62A17C962924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEF151ECFD18CC10F860ED7B0A10340A /* Pods-NeuralBasedArchiverTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NeuralBasedArchiverTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NeuralBasedArchiverTests/Pods-NeuralBasedArchiverTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NeuralBasedArchiverTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		169958A64B9ED5A5A2F2EAF9CFA9D71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ED25061DCBD2AFD805AD33206AFBA53 /* Pods-NeuralBasedArchiver.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NeuralBasedArchiver/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NeuralBasedArchiver/Pods-NeuralBasedArchiver.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NeuralBasedArchiver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		29C764D0724F21044285803B47049215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE269D07F30379F6E8B97FDF5784C6C6 /* Pods-NeuralBasedArchiverUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NeuralBasedArchiverUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NeuralBasedArchiverUITests/Pods-NeuralBasedArchiverUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NeuralBasedArchiverUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59BFFE4AB0F38B7799DFE0607F7C44C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E6BD4615461920A322B021CB7063DC /* Pods-NeuralBasedArchiverUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NeuralBasedArchiverUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NeuralBasedArchiverUITests/Pods-NeuralBasedArchiverUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NeuralBasedArchiverUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CF7359722B61C4A9747995C6EBBD5D5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABDB6B07963200CE244B7E9930F12DB5 /* Pods-NeuralBasedArchiverTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NeuralBasedArchiverTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NeuralBasedArchiverTests/Pods-NeuralBasedArchiverTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NeuralBasedArchiverTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED4FC68AB2A4E06C718CFF338F6F156B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBD1A2DE5977DEF4F814D63A8F9B065F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE9485D96D6F5B69ACA51E5C9497A6AC /* Pods-NeuralBasedArchiver.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NeuralBasedArchiver/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NeuralBasedArchiver/Pods-NeuralBasedArchiver.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NeuralBasedArchiver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F5D7556360815A98CBF526D6FCC3CB1 /* Build configuration list for PBXNativeTarget "Pods-NeuralBasedArchiverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59BFFE4AB0F38B7799DFE0607F7C44C7 /* Debug */,
+				29C764D0724F21044285803B47049215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */,
+				ED4FC68AB2A4E06C718CFF338F6F156B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4589FE27AC7D8A719FEF26E6FBBF3A5C /* Build configuration list for PBXNativeTarget "Pods-NeuralBasedArchiverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D1F908818B63828B53B62A17C962924 /* Debug */,
+				CF7359722B61C4A9747995C6EBBD5D5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4F9D6CD7C205CD44FD1742703AE69B4 /* Build configuration list for PBXNativeTarget "Pods-NeuralBasedArchiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169958A64B9ED5A5A2F2EAF9CFA9D71F /* Debug */,
+				FBD1A2DE5977DEF4F814D63A8F9B065F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
